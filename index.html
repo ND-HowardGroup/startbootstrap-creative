@@ -12,18 +12,18 @@
     <title>Howard Group - Electrical Engineering - University of Notre Dame</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
     <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <!-- Theme CSS -->
+    <link href="css/creative.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,10 +41,7 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">Howard Group @ND</a>
             </div>
@@ -90,7 +87,7 @@
                     <h2 class="section-heading">Sensitive, Fast, High-Resolution Imaging</h2>
                     <hr class="light">
                     <p class="text-faded">The Photonics for Imaging and Diagnostics lab is made up for electrical engineering and bioengineering researchers working to improve our understanding and treatment of disease and keeping the world safe. We use light to "see" inside of living tissue in 3D to produce images that exceed the resolution of biopsies without the need of pathological processing. In similar ways, we use light to see trace amounts of explosive residues.</p>
-                    <a href="#research" class="page-scroll btn btn-default btn-xl">Learn More About Our Projects!</a>
+                    <a href="#research" class="page-scroll btn btn-default btn-xl sr-button">Learn More About Our Projects!</a>
                 </div>
             </div>
         </div>
@@ -109,7 +106,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-stethoscope wow bounceIn text-primary"></i>
+                        <i class="fa fa-4x fa-stethoscope text-primary sr-icons"></i>
                         <h3>Biophotonics (use better photo?) </h3>
                         <p class="text-muted text-justify">We work with biomedical researchers to develop advanced imaging systems with
                                               unparalleled performance by extending the capabilities of multi-photon microscopy (MPM)
@@ -119,7 +116,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-video-camera wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <i class="fa fa-4x fa-video-camera text-primary sr-icons"></i>
                         <h3>Security & Defense</h3>
                         <p class="text-muted text-left">As part of the Department of Homeland Security ALERT Center of Excellence,
                                               we develop and evaluate mid-infrared imaging technology for trace explosive detection.</p>
@@ -128,7 +125,7 @@
                 <div class="clearfix visible-md-block"></div>
                 <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-space-shuttle wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <i class="fa fa-4x fa-space-shuttle text-primary sr-icons"></i>
                         <h3>Undergraduate Projects</h3>
                         <p class="text-muted">Our group engages with undergraduates developing wearable
                                               biomedical devices for NASA and low-cost field-deployable
@@ -138,7 +135,7 @@
                 <!-- Not for now 
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-graduation-cap wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <i class="fa fa-4x fa-graduation-cap text-primary sr-icons"></i>
                         <h3>Placeholder</h3>
                         <p class="text-muted">Don't know what to put here</p>
                     </div>
@@ -368,11 +365,11 @@
                        University of Notre Dame, 46556</p>
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <i class="fa fa-phone fa-3x sr-contact"></i>
                     <p>574-631-2570</p>
                 </div>
                 <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
                     <p><a href="mailto:your-email@your-domain.com">showard@nd.edu</a></p>
                 </div>
             </div>
@@ -380,18 +377,18 @@
     </section>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
 
 </body>
 
